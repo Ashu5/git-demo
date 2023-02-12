@@ -18,3 +18,7 @@ return userFunctions;
 function countUserSession(user){
     return MAX_SESSION;
 }
+
+function setUserPrivileges(user){
+    return "ADMIN";
+}
