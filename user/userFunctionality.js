@@ -20,7 +20,7 @@ function countUserSession(user){
 }
 
 function setUserPrivileges(user){
-    return "ADMIN";
+    return "USER";
 }
 
 function addUserProxy(user){
