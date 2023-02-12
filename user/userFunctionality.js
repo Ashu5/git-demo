@@ -22,3 +22,7 @@ function countUserSession(user){
 function setUserPrivileges(user){
     return "ADMIN";
 }
+
+function addUserProxy(user){
+    return "AS OWW";
+}
