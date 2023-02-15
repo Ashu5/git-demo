@@ -26,7 +26,3 @@ function setUserPrivileges(user){
 function addUserProxy(user){
     return "AS OWW";
 }
-
-function onBoardUser(user){
-return new User["user"];
-}
