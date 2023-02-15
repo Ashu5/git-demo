@@ -31,8 +31,8 @@ function onBoardUser(user){
 return new User["user"];
 }
 
-function updateUser(user){
- user=getUserByName(user);
- user="user";
+function updateUser(existingUser){
+ user=existingUser;
  return user;
 }
+
