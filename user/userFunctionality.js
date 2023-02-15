@@ -30,8 +30,9 @@ function addUserProxy(user){
 function onBoardUser(user){
 return new User["user"];
 }
-//update user
-function updateUser(existingUser){
- user=existingUser;
+
+function updateUser(user){
+ user=getUserByName(user);
+ user="user";
  return user;
 }
